@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bytescale/sdk": "^3.37.0",
+    "@bytescale/upload-widget-react": "^4.18.0",
     "@clerk/nextjs": "^4.29.5",
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "^2.1.3",
+    "@upstash/ratelimit": "^1.1.3",
+    "@vercel/analytics": "^1.2.2",
+    "framer-motion": "^11.1.7",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-compare-slider": "^3.1.0",
+    "react-dom": "^18",
+    "react-use-measure": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
