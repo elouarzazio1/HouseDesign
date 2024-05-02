@@ -50,8 +50,8 @@ const options: UploadWidgetConfig = {
     const [sideBySide, setSideBySide] = useState<boolean>(false);
     const [error, setError] = useState<string | null>(null);
     const [photoName, setPhotoName] = useState<string | null>(null);
-    const [theme, setTheme] = useState<themeType>("Moderne");
-    const [room, setRoom] = useState<roomType>("Salon");
+    const [theme, setTheme] = useState<themeType>('Minimalist');
+    const [room, setRoom] = useState<roomType>('Bathroom');
   
     const UploadDropZone = () => (
       <UploadDropzone
