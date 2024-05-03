@@ -105,7 +105,7 @@ const options: UploadWidgetConfig = {
     return (
       <div className="flex  flex-col   py-2 min-h-screen bg-white">
   
-        <main className="flex  text-center px-4 mt-4 sm:mb-0 mb-8">
+        <main className="flex flex-col   text-center px-4 mt-4 sm:mb-0 mb-8">
           <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl mb-5">
             Générez votre <span className="text-blue-600">rêve</span> de chambre
           </h1>
