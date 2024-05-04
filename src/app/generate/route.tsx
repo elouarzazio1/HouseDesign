@@ -41,7 +41,7 @@ export async function POST(request: Request) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Token " + process.env.REPLICATE_API_KEY,
+      Authorization: "Token " + process.env.REPLICATE_API_TOKEN,
     },
     body: JSON.stringify({
       version:
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Token " + process.env.REPLICATE_API_KEY,
+        Authorization: "Token " + process.env.REPLICATE_API_TOKEN,
       },
     });
     let jsonFinalResponse = await finalResponse.json();
