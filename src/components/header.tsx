@@ -5,29 +5,32 @@ export default function Header() {
   const { userId } = auth();
   
   return (
-      <div className=' bg-white text-black shadow'>
-        <div className='container mx-auto flex items-center justify-between py-4'>
-        <h2 className='text-2xl  font-bold'>  <Link href='/'>Conception de Maison</Link></h2>
-          <div>
-            {userId ? (
-              <div className='flex gap-4 items-center'>
-                <Link href='/dashboard'>Tableau de Bord</Link>
-                <UserButton afterSignOutUrl='/' />
-              </div>
-            ) : (
-              <div className='flex gap-4 items-center'>
-                <div className='hover:text-xl hover:border-collapse hover:bg-slate-900 hover:p-2 hover:text-white hover:rounded-md'> 
-                    <Link href='/sign-up'>
-                    </Link>
+      <div className="flex flex-row xsm:flex-row items-center gap-2 space-between py-2 sm:py-4 px-3 sm:px-6 text-lg border-b border-gray-800 sticky top-0 z-10 backdrop-blur-lg bg-black">
+        
+          <div className='text-white'>
+           
+              <h2 className='sm:mr-12 shrink-0 font-bold text-clip '>  
+                <Link href='/'>House Design</Link>
+              </h2>
+            </div>
+            <div className='flex items-center gap-2 ml-auto'>
+              {userId ? (
+                <div className='relative ml-3'>
+                  <UserButton afterSignOutUrl='/' />
+                </div>
+              ) : (
+                <div className='flex space-x-4'>
+                  <div className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> 
                     <Link href='/sign-up'>S'inscrire</Link> 
+                  </div>
+                  <div className='bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium'>
+                    <Link href='/sign-in'>Se Connecter</Link>
+                  </div>
                 </div>
-                <div className=' active:bg-white text-xl border-collapse bg-slate-900 p-2 text-white rounded-md'>
-                <Link href='/sign-in'>Se Connecter</Link>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
+              )}
+          
+         
       </div>
+      </div>  
   );
 }

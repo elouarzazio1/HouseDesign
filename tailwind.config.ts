@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 110s linear infinite',
+        },
+      keyframes: {
+        'infinite-scroll': {
+            from: { transform: 'translateX(var(--scroll-start))' },
+            to: { transform: 'translateX(var(--scroll-end))' },
+        }
+        }        
     },
   },
   plugins: [],
