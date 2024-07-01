@@ -32,8 +32,12 @@ const user =  currentUser();
     software
 </h3>
 <div className="flex gap-4 mt-4 text-lg justify-center">
-        <a href="" className='transition-colors duration-200 block font-medium bg-teal-600 hover:bg-teal-500 border border-teal-500 hover:border-teal-300 rounded px-5 py-2'>Try free demo</a>
-        <a href="" className='transition-colors duration-200 block bg-gray-800 hover:bg-gray-700 rounded text-gray-400 hover:text-gray-300 border border-gray-700 hover:border-gray-500 px-4 py-2'>Start Now</a>
+        <Link href="/dashboard">
+          <div className='transition-colors duration-200 block font-medium bg-teal-600 hover:bg-teal-500 border border-teal-500 hover:border-teal-300 rounded px-5 py-2'>Try free demo</div>
+        </Link>
+        <Link href="/dashboard">
+          <div className='transition-colors duration-200 block bg-gray-800 hover:bg-gray-700 rounded text-gray-400 hover:text-gray-300 border border-gray-700 hover:border-gray-500 px-4 py-2'>Start Now</div>
+        </Link>
 
         </div>
 
