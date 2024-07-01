@@ -10,7 +10,9 @@ export default function Header() {
           <div className='text-white'>
            
               <h2 className='sm:mr-12 shrink-0 font-bold text-clip '>  
-                <Link href='/'>House Design</Link>
+                <Link href='/'>
+                  <img src='/logohousedesign7.png' className='rounded-full max-h-46 max-w-20' alt='logo' width={150} height={50} />
+                </Link>
               </h2>
             </div>
             <div className='flex items-center gap-2 ml-auto'>
@@ -20,7 +22,7 @@ export default function Header() {
                 </div>
               ) : (
                 <div className='flex space-x-4'>
-                  <div className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'> 
+                  <div className='px-3 py-2 rounded-md text-sm font-medium text-white' style={{ backgroundColor: '#0d9488' }}> 
                     <Link href='/sign-up'>S'inscrire</Link> 
                   </div>
                   <div className='bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium'>

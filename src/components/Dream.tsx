@@ -107,7 +107,7 @@ const options: UploadWidgetConfig = {
   
         <main className="flex flex-col   text-center px-4 mt-4 sm:mb-0 mb-8">
           <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl mb-5">
-            Générez votre <span className="text-blue-600">rêve</span> de chambre
+          Créez votre intérieur de rêve avec  <span className="text-blue-600">House Design</span>
           </h1>
           <ResizablePanel>
             <AnimatePresence mode="wait">
@@ -122,8 +122,8 @@ const options: UploadWidgetConfig = {
                           height={30}
                           alt="1 icon"
                         />
-                        <p className="text-left font-medium">
-                          Choisissez le thème de votre chambre.
+                        <p className="text-left font-medium text-xl">
+                        Étape 1 -  Choisissez le thème .
                         </p>
                       </div>
                       <DropDown
@@ -142,8 +142,8 @@ const options: UploadWidgetConfig = {
                           height={30}
                           alt="1 icon"
                         />
-                        <p className="text-left font-medium">
-                          Choisissez le type de votre chambre.
+                        <p className="text-left font-medium text-xl">
+                        Étape 2 - Choisissez la pièce.
                         </p>
                       </div>
                       <DropDown
@@ -160,8 +160,8 @@ const options: UploadWidgetConfig = {
                           height={30}
                           alt="1 icon"
                         />
-                        <p className="text-left font-medium">
-                          Téléchargez une photo de votre chambre.
+                        <p className="text-center  font-medium text-xl">
+                        Étape 3 - Téléchargez la photo 
                         </p>
                       </div>
                     </div>

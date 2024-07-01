@@ -30,7 +30,7 @@ const Hero2: React.FC = () => {
 
     <div className="container mx-auto flex flex-col sm:flex-row items-center justify-center gap-y-0 gap-x-4 mt-2">
             <div className='text-white text-xl text-center'>
-            Click on a style to try it
+            Cliquez sur un style pour l'essayer
             </div>
             <img className="w-14 h-14 text-white scale-y-[-1] translate-y-5 z-10 pointer-events-none" src="https://roomai.com/assets/home/arrow-b15526e7156355ddd43f75105f27df50575cfb2be5ea891464aa7a4aeac6661f.svg" alt="" />
         </div>

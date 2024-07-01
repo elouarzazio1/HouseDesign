@@ -25,14 +25,14 @@ const Section1: React.FC<Section1Props> = () => {
             
     <div className='grid sm:grid-cols-2 sm:gap-20 container mx-auto'>
       <h2 className='font-polysans text-5xl font-bold mb-5'>
-        Your questions ,
-        <br />
-        answered
+      Vos questions,    <br />
+        Nos réponses
       </h2>
 
       <div className='flex flex-col gap-0 [&:has([open])_details:not([open])_summary]:text-gray-400'>
         <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>Can I use these designs commercially?
+          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>
+          Puis-je utiliser ces designs à des fins commerciales ?
 
           <div className='ml-auto'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
@@ -44,13 +44,14 @@ const Section1: React.FC<Section1Props> = () => {
           </div>
           </summary>
          <p className='text-lg mt-2'>
-          "Certainly! If you're a user with a paid subscription that supports commercial usage, you have the rights to use the designs for commercial purposes. But remember, rights for personal and commercial use depend on the type of subscription you hold. Always ensure your usage aligns with your subscription terms."
+         Absolument ! Si vous disposez d'un abonnement payant incluant l'usage commercial, vous avez le droit d'utiliser les designs à des fins professionnelles. Nos designs AI vous offrent une flexibilité maximale pour vos projets commerciaux.
          </p>
          </details>
       
     
         <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>What type of input should I provide to get good results?
+          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>
+          Quel type d'input dois-je fournir pour obtenir de bons résultats ?
 
           <div className='ml-auto'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
@@ -62,11 +63,12 @@ const Section1: React.FC<Section1Props> = () => {
           </div>
           </summary>
          <p className='text-lg mt-2'>
-         Whether you want to restyle an existing space or create a design from scratch, our AI can handle it. You can upload images, select design elements or even create from scratch - the more detail you provide, the better our AI can meet your expectations.
+         Que vous souhaitez relooker un espace existant ou créer un design à partir de zéro, notre IA est à la hauteur. Téléchargez des images, sélectionnez des éléments de design ou partez d'une page blanche - plus vous fournissez de détails, mieux notre IA pourra répondre à vos attentes. Notre technologie s'adapte à votre créativité pour des résultats sur mesure.
          </p>
         </details>
         <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>How does Room AI differ from other interior design tools??
+          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>
+          En quoi Housedesign se distingue-t-il des autres outils de design d'intérieur ?
 
           <div className='ml-auto'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
@@ -78,11 +80,13 @@ const Section1: React.FC<Section1Props> = () => {
           </div>
           </summary>
          <p className='text-lg mt-2'>
-         Since our launch in September 2022, several competitors have emerged, applying similar AI technology in predictable ways. Room AI goes a step further by collaborating with users and industry experts. As a result, we offer more than just powerful AI technology; we deliver it through an easy-to-use interface, packed with a variety of customization options and suggestions such as color palettes and materials, ensuring that we effectively cater to your needs.         </p>
+         Nous offrons bien plus qu'une simple technologie IA puissante ; nous la proposons via une interface intuitive, riche en options de personnalisation et en suggestions. Notre approche garantit une réponse efficace à vos besoins spécifiques en matière de design d'intérieur, alliant innovation et facilité d'utilisation.
+         
+           </p>
         </details>
         <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>Is payment secure?
-
+          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>
+          Qui a développé Housedesign ?
           <div className='ml-auto'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
         <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd"></path>
@@ -93,59 +97,11 @@ const Section1: React.FC<Section1Props> = () => {
           </div>
           </summary>
          <p className='text-lg mt-2'>
-         Absolutely. We use Stripe, a leading global payment processor, to ensure your transactions are secure. Stripe securely stores your credit card details in compliance with data protection regulations.
+         Housedesign a été créé par Housebooking, une conciergerie Airbnb à Marrakech, avec l'aide de professionnels du secteur. Notre objectif ? Rendre les services de design IA accessibles à tous, tout en assurant la pérennité de notre entreprise. Nous combinons expertise locale et technologie de pointe pour révolutionner le design d'intérieur.
                   </p>
         </details>
 
-        <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>How do you handle my data and respect my privacy?
-
-          <div className='ml-auto'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
-        <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 block text-gray-500 group-open:hidden">
-        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
-        </svg>
-          </div>
-          </summary>
-         <p className='text-lg mt-2'>
-         We take your privacy seriously and are committed to keeping your uploads confidential. We assure you that we will not publish any outputs of your account on our homepage or anywhere else without your explicit permission. We follow stringent data management practices to protect your data. For more detailed information on how we handle and protect your data, please check out our                   </p>
-        </details>
-
-        <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>Do I still need an interior designer??
-
-          <div className='ml-auto'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
-        <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 block text-gray-500 group-open:hidden">
-        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
-        </svg>
-          </div>
-          </summary>
-         <p className='text-lg mt-2'>
-         Since our launch in May 2024, several competitors have emerged, applying similar AI technology in predictable ways. House Design AI goes a step further by collaborating with users and industry experts. As a result, we offer more than just powerful AI technology; we deliver it through an easy-to-use interface, packed with a variety of customization options and suggestions such as color palettes and materials, ensuring that we effectively cater to your needs.                 </p>
-        </details>
-      
-   
-
-        <details className='class="group py-4 border-b border-gray-800 [&:last-child]:border-b-0"'>
-          <summary className='flex items-center list-none cursor-pointer transition-color duration-200 [&::-webkit-details-marker]:hidden'>Who created House Design AI?
-
-          <div className='ml-auto'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 hidden group-open:block">
-        <path fill-rule="evenodd" d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z" clip-rule="evenodd"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="w-6 h-6 block text-gray-500 group-open:hidden">
-        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
-        </svg>
-          </div>
-          </summary>
-         <p className='text-lg mt-2'>
-         I, Othmane, I developed House Design AI with the help of input from industry professionals. Through extensive use of AI technology while developing Room AI, I'm able to offer House Design AI's services at an affordable price while ensuring a sustainable business.                  </p>
-        </details>
+     
       
    
     </div>

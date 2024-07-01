@@ -36,10 +36,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 
 
-let title = "House Design";
-let description = "Générez la chambre de vos rêves en quelques secondes.";
-let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
-let sitename = "HouseDesign.ma";
+let title = "Housedesign.ma | Design d'Intérieur IA au Maroc";
+let description = "Créez facilement l'intérieur de vos rêves au Maroc avec notre outil d'intelligence artificielle. Design professionnel, simple et abordable. Essayez maintenax@nt !";
+let ogimage = "";
+let sitename = "HouseDesign";
 
 export const metadata: Metadata = {
   title,
