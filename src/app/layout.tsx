@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 
 import { Analytics } from "@vercel/analytics/react";
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata: Metadata = {
@@ -71,7 +72,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
- 
+       
+          {/* Tawk.to Script */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                  s1.async=true;
+                  s1.src='https://embed.tawk.to/66853f079d7f358570d68aa6/1i1s7se2i';
+                  s1.charset='UTF-8';
+                  s1.setAttribute('crossorigin','*');
+                  s0.parentNode.insertBefore(s1,s0);
+                })();
+              `,
+            }}
+          />
+        
       <body className="">
         <ClerkProvider>
         <Header/> 

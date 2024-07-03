@@ -1,8 +1,12 @@
 import Link from "next/link";
 
+import _document from "../pages/_document"
+
+
 export default function Footer() {
   return (
    <footer className="p-8 sm:p-12 border-t border-gray-800 text-gray-400 bg-black">
+
       <section className="container flex justify-around">
           <div className="block">
             <img src="/logohousedesign7.png" width={100}/>
