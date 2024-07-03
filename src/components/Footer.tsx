@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import _document from "../pages/_document"
 
 
 export default function Footer() {
